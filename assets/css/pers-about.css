@@ -4,12 +4,13 @@
 
 .introduction{
     display: flex;
-    background-color: #5086c1;
+    background-color: #486c41;
     width: 90%;
     justify-content: center;
     margin-bottom: 0;
     height: 150px;
 }
+
 
 #cg--color{
     margin: 5px;

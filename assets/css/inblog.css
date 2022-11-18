@@ -44,6 +44,22 @@ iframe{
     max-height: 100%;
 }
 
+.main--article > p{
+    color: #000000;
+}
+
+.main--article > p > b{
+    color:#000000;
+}
+
+.introBlog >div >div >h1{
+    color: #624c31;
+}
+
+.introBlog >div >div p, b{
+    color:#000000;
+}
+
 .topimg--article{
     border-radius: 15px;
     object-fit:cover;

@@ -2,10 +2,11 @@
 Este CSS está dedicado para modificar los aspectos escenciales de la página, como el header, body,
 footer... Siempre tiene que estar incluído para la estructura principal.
 */
-
+@import url(https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap%27);
 *{
     color: #fff;
     font-family: 'Poppins', sans-serif; 
+    
 }
 
 
@@ -210,6 +211,10 @@ li{
 
 #footer--area > h1{
     margin: 0;
+}
+
+#footer--area > span{
+    color: #ffffff;
 }
 
 #brand--footer{
