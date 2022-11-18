@@ -4,7 +4,7 @@
 
 .introduction{
     display: flex;
-    background-color: #5086c1;
+    background-color: #486c41;
     width: 90%;
     justify-content: center;
     margin-bottom: 0;
@@ -82,8 +82,10 @@
     align-items: center;
     justify-content: center;
     width: 320px;
-    height: 200px;
-    background-color: var(--backtoneblack);
+    background-color: #ead59f;
+    border-width: 3px;
+    border-color: #c1965e;
+    border-style: solid;
     padding: 10px;
     padding-top: 0;
     margin: 5px;
@@ -92,28 +94,46 @@
 }
 
 #internal--element:hover{
-    filter: invert(1);
-    transform: scale(0.95);
+    transform: scale(0.98);
+    background-color: #c1965e;
 }
 
 .author--img{
-    width: 48px;
-    height: 48px;
-    left: 140px;
-    bottom: 90px;
-    position: relative;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     filter: drop-shadow(0px 0px 4px #000);
+    margin-right: 10px;
+}
+
+#author--cont{
+    border-top: 2px solid #00000045;
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#author--details{
+    display: flex;
+    flex-direction: column;
+}
+
+#author--details > h3,span{
+    color: #624c31;
+    font-size: 14px;
+    margin: 0;
 }
 
 #back--element{
-    margin-top: 50px;
+    padding-top:10px;
     border-radius: 5px;
-    width: 65%;
+    width: 100%;
 }
 
 #internal--element > h3{
-    color: #c1eaff;
+    color: #624c31;
     font-size: 20px;
     margin: 5px;
 }
@@ -121,6 +141,7 @@
 #internal--element > p{
     font-size: 12px;
     margin: 5px;
+    color: #000;
 }
 
 #elements--carrs{

@@ -5,7 +5,7 @@ footer... Siempre tiene que estar incluído para la estructura principal.
 
 *{
     color: #fff;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; 
 }
 
 
@@ -15,7 +15,7 @@ h2, h4{
 
 a{
     text-decoration: none;
-    color: rgb(193, 234, 255);
+    color: #837059;
 }
 
 h1, h2, h3, h4, h5{
@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5{
 }
 
 h2{
-    color: #c1eaff;
+    color: #624c31;
     font-size: 48px;
 }
 
@@ -47,7 +47,7 @@ body, iframe{
 }
 
 body{
-    background-color: #cec7c796;
+    background-color: #e9dac1;
 }
 
 #main--header{
@@ -55,16 +55,19 @@ body{
     position:sticky;
     justify-content:space-around;
     align-items:center;
-    background-color:#5f8d4ed8;
+    background-color: #fbf8f1;
     margin: 0;
     top: 0;
     backdrop-filter: blur(20px);
-    box-shadow: 0 2px 2px rgba(11, 238, 181, 0.097);
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.097);
     z-index: 100;
 }
 
 article{
-    background-color: #A4BE7B;
+    background-color: #fff9ca;
+    border-style: solid;
+    border-color: #a49949;
+    border-width: 3px;
 }
 
 #list--header{
@@ -113,8 +116,14 @@ article{
 #title--header{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 8px;
 }
+
+#title--header > h1{
+    font-family: 'K2D', sans-serif;
+    color: #837059;
+}
+
 
 
 #item--icon{
@@ -159,8 +168,6 @@ li{
 
 .item--aside > h3{
     font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 10px;
     font-size: 15px;
 }
 
@@ -173,14 +180,14 @@ li{
     flex-direction: column;
     align-items:flex-start;
     gap: 0px;
-    background-color: var(--midtoneblack);
+    background-color: #624c31;
     border-radius: 10px;
     transition: background-color 0.2s, transform 0.2s;
 }
 
 .item--aside:hover{
     cursor: pointer;
-    background-color: rgb(94, 146, 171);
+    background-color: #493825;
 }
 
 .item--aside:active{
@@ -196,7 +203,7 @@ li{
     padding-bottom: 30px;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--backtoneblack);
+    background-color: #3e5032;
     margin: 0;
     top: 0;
 }
@@ -236,6 +243,11 @@ article{
         flex-direction: column;
     }
 
+    #brand--header{
+        width: 48px;
+        height: 48px;
+    }
+
     #main--aside{
         top: 108px;
         flex-direction:row;
@@ -252,8 +264,8 @@ article{
         margin: 10px;
     }
 
-    #title--header > h1{
-        margin: 10px;
+    #title--header{
+        gap: 0px;
     }
 
     section{
