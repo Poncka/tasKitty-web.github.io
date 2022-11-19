@@ -29,8 +29,7 @@
 }
 
 .img--article{
-    filter: invert(1);
-    max-width: 30%;
+    max-width: 95%;
 }
 
 #element1, #element2{
@@ -43,15 +42,22 @@
     justify-content:center;
 }
 
+
+
 #element2{
     width: 100%;
-    background-color: var(--midtoneblack);
+    height: 65%;
+    background-color: #ead59f;
     transition: background-color 0.2s, transform 0.5s;
 }
 
 #element2:hover{
-    filter: invert(1);
+    
     transform: scale(0.9);
+}
+
+#element2>img{
+    border-radius: 5px;
 }
 
 #backforicon{
@@ -127,7 +133,7 @@
 }
 
 #back--element{
-    padding-top:10px;
+    margin-top:10px;
     border-radius: 5px;
     width: 100%;
 }
