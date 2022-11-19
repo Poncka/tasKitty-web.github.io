@@ -164,7 +164,8 @@ li{
     padding-right: 15px;
     border-radius: 10px;
     align-items: flex-start;
-    background-color: var(--lowtoneblack);
+    background-color: #f3f0e8;
+    height: 85%;
 }
 
 .item--aside > h3{
@@ -214,7 +215,7 @@ li{
 }
 
 #footer--area > span{
-    color: #ffffff;
+    color: white;
 }
 
 #brand--footer{
@@ -261,7 +262,7 @@ article{
 
     .item--aside{
         min-width: 200px;
-        height: 30px;
+        height: 45px;
     }
 
     #list--header{
@@ -327,6 +328,7 @@ article{
     }
 
     .item--aside{
-        height: 32px;
+        height: 35px;
     }
+    
 }

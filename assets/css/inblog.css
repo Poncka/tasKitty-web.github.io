@@ -206,6 +206,10 @@ tr > td:first-child{
     .img--article{
         max-width: 80%;
     }
+    
+    .item--aside > h3{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -214,6 +218,7 @@ tr > td:first-child{
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
 
     .item--aside > h3{
         font-size: 12px;
