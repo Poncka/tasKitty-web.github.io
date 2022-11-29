@@ -4,11 +4,15 @@
 
 .introduction{
     display: flex;
-    background-color: #486c41;
+    background-color: #ead59f;
     width: 90%;
     justify-content: center;
     margin-bottom: 0;
-    height: 300px;
+    height: 70vh;
+}
+
+section{
+    width: 80%;
 }
 
 #cssdoc{
@@ -167,10 +171,75 @@
     align-items: center;
 }
 
+#img--task{
+    width: 128px;
+}
+
+#flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title--taskitty{
+    margin: 0;
+    font-family: 'K2D', sans-serif;
+    font-size: 45px;
+    color: #837059;
+}
+
+#sec--taskitty{
+    margin: 0;
+    font-family: 'K2D', sans-serif;
+    font-size: 30px;
+    color: #837059;
+}
+
+#other--taskitty{
+    font-family: 'K2D', sans-serif;
+    font-size: 30px;
+    color: #837059;
+    margin: 2px;
+}
+
+#tiny--taskitty{
+    font-family: 'K2D', sans-serif;
+    font-size: 15px;
+    color: #837059;
+    margin: 2px;
+}
+
+.all-wind{
+    display: flex;
+    background-color: #edffd8;
+    height: 70vh;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#img-size{
+    width: 80%;
+}
+
+
 @media screen and (max-width: 990px) {
+
+    section{
+        width: auto;
+    }
 
     .introduction{
         height: max-content;
+        height: 70vh;
+
+    }
+
+    .all-wind{
+        width: 90%;
     }
 
     #internal--element{

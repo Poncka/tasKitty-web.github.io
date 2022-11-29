@@ -126,7 +126,12 @@ iframe{
 #article--insertcent{
     display: flex;
     justify-content: center;
+    gap: 0;
+    row-gap: 0;
+    column-gap: 0;
 }
+
+
 
 table{
     border-radius: 15px;

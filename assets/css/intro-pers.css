@@ -2,6 +2,10 @@
     display: none;
 }
 
+section{
+    width: 80%;
+}
+
 .item--aside{
     flex-direction:row;
     margin-bottom: 10px;
