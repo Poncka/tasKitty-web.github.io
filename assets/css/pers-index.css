@@ -2,13 +2,17 @@
     display: none;
 }
 
+body{
+    background-color: #edffd8;
+}
+
 .introduction{
     display: flex;
-    background-color: #ead59f;
+    background-color: #fff9ca;
     width: 90%;
     justify-content: center;
     margin-bottom: 0;
-    height: 70vh;
+
 }
 
 section{
@@ -16,7 +20,9 @@ section{
 }
 
 #cssdoc{
-    margin: 5px;
+    background: linear-gradient( #edffd8);
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .logotf{
@@ -213,8 +219,8 @@ section{
 .all-wind{
     display: flex;
     background-color: #edffd8;
-    height: 70vh;
-    width: 80%;
+    width: 100%;
+    border-width: 0;
     justify-content: center;
     flex-direction: column;
     gap: 15px;
@@ -222,7 +228,125 @@ section{
 }
 
 #img-size{
-    width: 80%;
+    width: 90%;
+}
+
+#cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 350px;
+    background: linear-gradient(#273420,#435735);
+    border-radius: 30px;
+}
+
+#cont-esp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 350px;
+    background: linear-gradient(#fff9ca,#ead59f);
+    border-radius: 30px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.sabias{
+    border-radius: 10px;
+}
+
+#download > h4{
+    color: #000;
+    font-size: 25px;
+}
+
+.downloadon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: #749160;
+    height: 76px;
+}
+
+#net-hub{
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+#net-hub > img{
+    width: 16px;
+    height: 16px;
+}
+
+#net-hub > h1{
+    margin: 0;
+}
+
+#text-down{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-down > h1, h4{
+    margin: 0;
+    color: #8dd45a;
+}
+
+.downloadon > img{
+    width: 64px;
+    height: 64px;
+}
+
+#down{
+    border-width: 0;
+    background-color: #ead59f;
+}
+
+#cont-esp > img{
+    width: 50%;
+    filter: drop-shadow(0 0 15px #ffffff);
+}
+
+.main--article{
+    box-shadow: none;
+}
+
+
+#cont > img{
+    filter: drop-shadow(0 0 10px #8dd45a);
+}
+
+
+#cont-esp > h4{
+    font-size: large;
+    color: #000;
+}
+
+#cont > p{  
+    text-align: center;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+#cont > h4{
+    font-size: large;
+    color: #fff;
 }
 
 
