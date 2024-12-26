@@ -1,0 +1,22 @@
+---
+
+const logoUrl = "../src/assets/taskitty_logo.png";
+---
+
+<section>
+    <nav class="fixed top-0 left-0 flex justify-between items-center w-full py-3 px-4 sm:px-11 bg-[#FBF8F1] text-[#837059]">
+        <div class="flex items-center gap-2 w-full">
+            <img src={`${logoUrl}`} alt="TasKitty logo" class="w-12 h-12 sm:w-10 sm:h-10 object-fill">
+            <h1 class="text-xl sm:text-2xl font-semibold">TasKitty</h1>
+        </div>
+      
+        <div class="hidden sm:flex gap-4 text-base justify-between w-full">
+            <a href="{{ '/' | url }}" class="hover:underline">Inicio</a>
+            <a href="{{ '/about' | url }}" class="hover:underline">Flora y fauna</a>
+            <a href="{{ '/contact' | url }}" class="hover:underline">Albergues</a>
+            <a href="{{ '/contact' | url }}" class="hover:underline">Datos curiosos</a>
+            <a href="{{ '/contact' | url }}" class="hover:underline">Acerca de</a>
+        </div>
+        
+    </nav>
+</section>
