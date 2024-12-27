@@ -2,24 +2,21 @@
 const url = "../src/assets/img/Datos.jpg";
 ---
 
-<section class="flex flex-row items-center justify-center bg-[#fdf8f3] px-8 py-12 lg:px-16 lg:py-20 min-h-screen w-full">
- 
-  <!-- Contenido de texto -->
-  <div class="w-full flex flex-col lg:flex-row items-center justify-center gap-12 text-left">
-     <!-- Imagen -->
-     <div class="mt-10 lg:mt-0 lg:w-1/2 flex justify-center ">
-        <img src={`${url}`} alt="TasKitty Screenshots" class="object-contain w-full max-h-[600px]">
-      </div>
+<section class="flex flex-col lg:flex-row items-center justify-center bg-[#fdf8f3] px-4 sm:px-8 lg:px-16 py-8 lg:py-20 min-h-screen w-full">
+  <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 text-left w-full">
+    <!-- Imagen -->
+    <div class="flex justify-center lg:w-1/2">
+      <img src={`${url}`} alt="TasKitty Screenshots" class="object-contain w-full max-w-[500px] max-h-[400px] sm:max-h-[500px] lg:max-h-[600px]">
+    </div>
     
-    <div class="max-w-2xl lg:w-1/2 space-y-6">
-      <h1 class="text-3xl sm:text-5xl font-bold text-gray-800 leading-tight text-center">
-        Aprende y ayuda</h1>
-      <p class="text-xl text-gray-700 leading-relaxed">
+    <!-- Texto -->
+    <div class="lg:w-1/2 space-y-6 px-4 sm:px-0 text-center lg:text-left">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+        Aprende y ayuda
+      </h1>
+      <p class="text-base sm:text-lg lg:text-2xl text-gray-700 leading-relaxed text-justify">
         En Taskitty, no solo te ayudamos a organizar tus tareas y notas, sino que también te inspiramos con datos curiosos sobre animales. Aprende algo nuevo cada día mientras gestionas tu vida y descubre cómo puedes marcar la diferencia. Conéctate con ONGs y albergues que trabajan incansablemente para proteger a nuestros amigos peludos. ¡Únete a la causa y transforma tu día con Taskitty!
       </p>
     </div>
-  
-   
   </div>
- 
 </section>

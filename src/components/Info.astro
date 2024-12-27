@@ -3,28 +3,27 @@ const url = "../src/assets/collage.png";
 const apkUrl = "https://github.com/VarEros/TasKitty/releases/download/Task/TasKitty.apk";
 ---
 
-<section class="flex flex-col items-center justify-center bg-[#fdf8f3] px-8 py-12 lg:px-16 lg:py-20 min-h-screen w-full">
- 
-  <!-- Contenido de texto -->
-  <div class="w-full flex flex-col lg:flex-row items-center justify-center gap-12 text-left">
-    <div class="max-w-2xl lg:w-1/2 space-y-6">
-      <h1 class="text-4xl sm:text-5xl font-bold text-gray-800 leading-tight">
+<section class="flex flex-col items-center justify-center bg-[#fdf8f3] px-4 sm:px-8 lg:px-16 py-8 lg:py-20 min-h-screen w-full">
+  <!-- Contenido de texto e imagen -->
+  <div class="w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 text-left">
+    <!-- Texto -->
+    <div class="lg:w-1/2 space-y-6 px-4 sm:px-0 text-center lg:text-left">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
         ¡Transforma tu Día! <br />
         Gestiona Tareas y Notas <br />
         con Nuestro Calendario
       </h1>
-      <p class="text-2xl text-gray-700 leading-relaxed">
+      <p class="text-base sm:text-lg lg:text-2xl text-gray-700 leading-relaxed">
         Dedica menos tiempo a la planificación y más a la acción con una aplicación que te permite gestionar tus tareas y notas de manera eficiente. ¡Es hora de tomar el control y hacer que cada día cuente!
       </p>
       <a href={`${apkUrl}`} class="inline-block bg-black text-white py-3 px-6 rounded-lg shadow-md hover:bg-gray-800 transition">
-        Descargar taskitty apk
+        Descargar TasKitty APK
       </a>
     </div>
   
     <!-- Imagen -->
-    <div class="mt-10 lg:mt-0 lg:w-1/2 flex justify-center ">
-      <img src={`${url}`} alt="TasKitty Screenshots" class="object-contain w-full max-h-[600px]">
+    <div class="flex justify-center lg:w-1/2">
+      <img src={`${url}`} alt="TasKitty Screenshots" class="object-contain w-full max-w-[500px] max-h-[400px] sm:max-h-[500px] lg:max-h-[600px]">
     </div>
   </div>
- 
 </section>
