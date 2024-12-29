@@ -1,5 +1,21 @@
 ---
+const url = "../src/assets/Area.jpg";
 ---
-<section>
-    <h1>FLora y Fauna</h1>
+
+<section class="flex flex-col lg:flex-row items-center justify-center bg-[#F3F0E9] px-4 sm:px-8 lg:px-16 py-8 lg:py-20 min-h-screen w-full">
+  <div class="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 text-left w-full">
+    <!-- Imagen -->
+    <div class="flex justify-center lg:w-1/2">
+      <img src={`${url}`} alt="TasKitty Screenshots" class="object-contain w-full max-w-[500px] max-h-[400px] sm:max-h-[500px] lg:max-h-[600px]">
+    </div>
+    
+    <!-- Texto -->
+    <div class="lg:w-1/2 space-y-6 px-4 sm:px-0 text-center lg:text-center">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+        Flora y fauna
+      </h1>
+      <p class="text-base sm:text-lg lg:text-2xl text-gray-700 leading-relaxed text-justify">Nicaragua cuenta con 74 áreas protegidas que cubren más del 57% del territorio nacional, abarcando aproximadamente 7,462,410 hectáreas en nueve categorías de manejo. Entre las más importantes están la Reserva de Biosfera Bosawás, la Reserva de Biósfera de Río San Juan, la Reserva de Biósfera Isla de Ometepe y la Reserva de Biósfera del Caribe Nicaragüense, reconocidas por la UNESCO y la Asamblea Nacional de Nicaragua.
+      </p>
+    </div>
+  </div>
 </section>

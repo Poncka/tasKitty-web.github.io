@@ -1,16 +1,13 @@
 ---
 
 import Layout from '../layouts/BaseLayout.astro';
-import Navbar from '../components/Navbar.astro';
 import Info from '../components/Info.astro';
 import TaskittyCard from '../components/TaskittyCard.astro';
 import Info2 from '../components/Info_2.astro';
 ---
 
 <Layout>
-	<Navbar client:visible?/>
 	<Info/>
 	<TaskittyCard/>
 	<Info2/>
-	
 </Layout>
